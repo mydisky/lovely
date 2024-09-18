@@ -1,0 +1,11 @@
+flask
+gunicorn
+threaded
+telebot
+pytelegrambotapi
+regex
+requests
+python-dotenv
+﻿pymongo==4.3.3
+python-telegram-bot==13.5
+requests==2.30.0
