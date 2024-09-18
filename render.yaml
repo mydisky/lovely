@@ -1,21 +1,10 @@
 services:
 - type: web
-  name: adlinkfly-telegram-bot
+  name: lovely
   runtime: python
-  repo: https://github.com/techishfellow/adlinkfly-telegram-bot.git
+  repo: https://github.com/mydisky/lovely
   plan: free
   branch: main
   buildCommand: pip install -r requirements.txt
-  startCommand: python3 adlinkfly_bot.py
-  autoDeploy: false
-  envVars:
-  - key: DOMAIN_NAME
-    sync: false
-  - key: BOT_TOKEN
-    sync: false
-  - key: ADLINKFLY_TOKEN
-    sync: false
-  - key: START
-    sync: false
-  - key: HELP
-    sync: false
+  startCommand: python3 app.py
+  autoDeploy: true
