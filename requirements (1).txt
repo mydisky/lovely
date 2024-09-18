@@ -1,0 +1,8 @@
+flask
+gunicorn
+threaded
+telebot
+pytelegrambotapi
+regex
+requests
+python-dotenv
